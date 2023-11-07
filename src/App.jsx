@@ -1,6 +1,6 @@
 import styles from "./style";
 import {
-  Billing,
+  Events,
   Business,
   CardDeal,
   Contact,
@@ -12,6 +12,8 @@ import {
   Hero,
 } from "./components";
 import React from "react";
+import { Routes, Route } from "react-router-dom";
+import GetStarted from "./components/GetStarted";
 
 const App = () => (
   <div className="bg-primary w-full overflow-hidden">
@@ -20,19 +22,26 @@ const App = () => (
         <Navbar />
       </div>
     </div>
-
     <div className={`bg-primary ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
-        <Hero />
+        <Routes>
+          <Route path="/home" index element={<Hero />} />
+          <Route path="/events" element={<Events />} />
+          <Route path="/business" element={<Business />} />
+          <Route path="/card-deal" element={<CardDeal />} />
+          <Route path="/testimonials" element={<Testimonials />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/cta" element={<CTA />} />
+          <Route path="/footer" element={<Footer />} />
+          
+        </Routes>
       </div>
     </div>
-
     <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <Stats />
-        <Business />
-        <Billing />
-        <CardDeal />
+        <CardDeal />{" "}
+        {/* Billing component removed, not defined in the imports */}
         <Testimonials />
         <Contact />
         <CTA />

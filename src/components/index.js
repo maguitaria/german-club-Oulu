@@ -1,5 +1,5 @@
 import Navbar from "./Navbar";
-import Billing from "./Billing";
+import Events from "./Events";
 import CardDeal from "./CardDeal";
 import Business from "./Business";
 import Contact from "./Contact";
@@ -11,7 +11,7 @@ import Hero from "./Hero";
 
 export {
   Navbar,
-  Billing,
+  Events,
   CardDeal,
   Business,
   Contact,

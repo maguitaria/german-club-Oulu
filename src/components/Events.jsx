@@ -1,12 +1,13 @@
+import React from "react";
 import { apple, bill, google } from "../assets";
 import styles, { layout } from "../style";
 
-const Billing = () => (
+const Events = () => (
   <section id="events" className={layout.sectionReverse}>
     <div className={layout.sectionImgReverse}>
       <img
         src={bill}
-        alt="billing"
+        alt="Events"
         className="w-[100%] h-[100%] relative z-[5]"
       />
 
@@ -18,7 +19,7 @@ const Billing = () => (
 
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        Easily control your <br className="sm:block hidden" /> billing &
+        Easily control your <br className="sm:block hidden" /> Events &
         invoicing
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
@@ -27,6 +28,16 @@ const Billing = () => (
       </p>
 
       <div className="flex flex-row flex-wrap sm:mt-10 mt-6">
+        <iframe
+          src="https://docs.google.com/forms/d/e/1FAIpQLSd0pZwMV-6IvIahvx8rMsXUQ2BaMa09XWp-xA1aJhd-Y2m1XQ/viewform?embedded=true"
+          width="640"
+          height="2176"
+          frameborder="0"
+          marginheight="0"
+          marginwidth="0"
+        >
+          Loading…
+        </iframe>
         <img
           src={apple}
           alt="google_play"
@@ -42,4 +53,4 @@ const Billing = () => (
   </section>
 );
 
-export default Billing;
+export default Events;

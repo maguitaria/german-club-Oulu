@@ -5,5 +5,4 @@ const Button = ({ styles }) => (
     Get Started
   </button>
 );
-
 export default Button;
