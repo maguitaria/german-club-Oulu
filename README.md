@@ -72,7 +72,7 @@ This project is licensed under the [Your License Name] - see the LICENSE file fo
 
 Thank you for being a part of the German Club community! We hope you enjoy exploring our website.
 
-
+Color palette used: https://flatuicolors.com/palette/de
 
 Remember to replace `[Website URL]` and `[Repository URL]` with the actual URLs of your website and repository, and provide the appropriate license details in the "License" section. Additionally, customize the content and sections according to your website's specific information and features.
 
