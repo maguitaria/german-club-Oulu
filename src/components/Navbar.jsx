@@ -30,7 +30,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="w-full flex py-6 justify-between items-center navbar">
+    <nav className="w-full flex  justify-between items-center navbar ">
       <img src={logo} alt="sprichmituns" className="w-[250px] h-[250px]" />
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         <li className="font-poppins font-normal cursor-pointer text-[18px] text-white mr-11">

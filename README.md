@@ -77,5 +77,5 @@ Color palette used: https://flatuicolors.com/palette/de
 Remember to replace `[Website URL]` and `[Repository URL]` with the actual URLs of your website and repository, and provide the appropriate license details in the "License" section. Additionally, customize the content and sections according to your website's specific information and features.
 
 
-
+"Unlock the World of German Language and Culture! Join our vibrant German Speaking Club at Oulu University and immerse yourself in engaging conversations, fun activities, and friendships that span borders. Let's connect, learn, and celebrate together. Willkommen!"
 

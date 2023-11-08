@@ -6,10 +6,11 @@ import coinbase from "./coinbase.png";
 import dropbox from "./dropbox.png";
 import logo from "./logos/logo-color.svg"
 import quotes from "./quotes.svg";
-import germanclub from "./girls.png";
+import germanclub from "./Conclusion-freesvgillustration.com/Conclusion.svg";
 import send from "./Send.svg";
 import shield from "./Shield.svg";
 import star from "./Star.svg";
+import esn from "./esn.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import google from "./google.svg";
@@ -34,6 +35,7 @@ export {
   logo,
   quotes,
   germanclub,
+  esn,
   send,
   shield,
   star,

@@ -28,16 +28,7 @@ const Events = () => (
       </p>
 
       <div className="flex flex-row flex-wrap sm:mt-10 mt-6">
-        <iframe
-          src="https://docs.google.com/forms/d/e/1FAIpQLSd0pZwMV-6IvIahvx8rMsXUQ2BaMa09XWp-xA1aJhd-Y2m1XQ/viewform?embedded=true"
-          width="640"
-          height="2176"
-          frameborder="0"
-          marginheight="0"
-          marginwidth="0"
-        >
-          Loading…
-        </iframe>
+      
         <img
           src={apple}
           alt="google_play"

@@ -1,6 +1,6 @@
 import Navbar from "./Navbar";
 import Events from "./Events";
-import CardDeal from "./CardDeal";
+import Aboutus from "./Aboutus";
 import Business from "./Business";
 import Contact from "./Contact";
 import CTA from "./CTA";
@@ -12,7 +12,7 @@ import Hero from "./Hero";
 export {
   Navbar,
   Events,
-  CardDeal,
+  Aboutus,
   Business,
   Contact,
   CTA,

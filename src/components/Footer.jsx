@@ -1,5 +1,5 @@
 import styles from "../style";
-import { logo } from "../assets";
+import { logo, esn } from "../assets";
 import { footerLinks, socialMedia } from "../constants";
 import React from "react";
 
@@ -9,12 +9,23 @@ const Footer = () => (
       <div className="flex-[1] flex flex-col justify-start mr-10">
         <img
           src={logo}
-          alt="hoobank"
+          alt="sprichmituns"
           className="w-[300px] h-[300px] object-contain"
         />
-        <p className={`${styles.paragraph} mt-4 max-w-[312px]`}>
-          Partnered with ESN Oulu.
-        </p>
+
+        <ul className="list-none sm:flex hidden justify-end items-center flex-1">
+          <li>
+            <p className={`${styles.paragraph} mt-2 max-w-[312px]`}>
+              Partnered with ESN Oulu.
+            </p>
+            <img
+              key="ESN"
+              src={esn}
+              alt="ESN"
+              className={`w-[150px] h-[150px] object-contain cursor-pointer mr-1`}
+            ></img>
+          </li>
+        </ul>
       </div>
 
       <div className="flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10">
@@ -45,7 +56,7 @@ const Footer = () => (
 
     <div className="w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3F3E45]">
       <p className="font-poppins font-normal text-center text-[18px] leading-[27px] text-white">
-        developed by 
+        developed by
         <a href="https://github.com/maguitaria/maguitaria"> @maguitaria </a>
       </p>
 

@@ -2,7 +2,7 @@ import styles from "./style";
 import {
   Events,
   Business,
-  CardDeal,
+  Aboutus,
   Contact,
   CTA,
   Footer,
@@ -28,19 +28,18 @@ const App = () => (
           <Route path="/home" index element={<Hero />} />
           <Route path="/events" element={<Events />} />
           <Route path="/business" element={<Business />} />
-          <Route path="/card-deal" element={<CardDeal />} />
+          <Route path="/aboutus" element={<Aboutus />} />
           <Route path="/testimonials" element={<Testimonials />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/cta" element={<CTA />} />
           <Route path="/footer" element={<Footer />} />
-          
         </Routes>
       </div>
     </div>
     <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <Stats />
-        <CardDeal />{" "}
+        <Aboutus />{" "}
         {/* Billing component removed, not defined in the imports */}
         <Testimonials />
         <Contact />
