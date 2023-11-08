@@ -39,7 +39,7 @@ const Hero = () => {
             <div className="text-gradient xs:text-[80px] sm:text-[42px]">
               German Speaking club
             </div>
-            at Oulu University!
+            at Oulu University! 🇩🇪
           </h1>
           {/* // Register here button */}
           <div className="flex  md:mr-3 mr-1">
