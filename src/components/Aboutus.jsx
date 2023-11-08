@@ -7,14 +7,15 @@ const Aboutus = () => (
   <section className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        About Us - German Club University
+        About Us
         <br className="sm:block hidden" />
       </h2>
       <div className="bg-primary py-10 px-4">
         <div className="max-w-screen-xl mx-auto">
           <h1 className="text-3xl font-semibold text-white mb-6">
-            Lots of people in University learn German language, but don't have
-            enough practice with speaking it. Soo...
+            Our German Speaking Club, organized by ESN Oulu and passionate
+            German learners, is here to dive into the German culture and share
+            our love for the German language.
           </h1>
 
           <div className="bg-white p-6 rounded-lg shadow-lg">
@@ -23,18 +24,14 @@ const Aboutus = () => (
             <p className="text-lg text-gray-700 mb-4">
               Here you can immerse into German language and meet new people! 🇩🇪
             </p>
-            <br />
+
             <p className="text-gradient">
-              Our mission is to bring together Finnish German-speaking people
-              and German exchange students, providing them with a welcoming and
-              engaging platform for cultural exchange.
-              <br className="sm:block hidden" />
               <strong>
                 All our meetings are free and we offer snacks, drinks for our
                 participants.
               </strong>
             </p>
-
+            <br />
             <p className="text-lg text-gray-700 mb-4">
               <strong>What We Do:</strong>
             </p>
@@ -56,7 +53,7 @@ const Aboutus = () => (
                 and find a sense of belonging.
               </li>
               <li>
-                <strong>Movie nights:</strong> Wathing Films with German
+                <strong>Movie nights:</strong> Watching Films with German
                 subtitles is a great way to learn about culture and deepen into
                 historical context of German Language!
               </li>
@@ -69,11 +66,18 @@ const Aboutus = () => (
         </div>
       </div>
 
-      <Button styles={`mt-10`} />
+      <div className="flex items-center justify-center w-full">
+        <a href="https://t.me/+z_p7lHuhjnxlNWUy" target="_blank">
+          <Button styles={"mt-4"} />
+        </a>
+      </div>
     </div>
 
     <div className={layout.sectionImg}>
       <img src={aboutus} alt="About us" className="w-[100%] h-[50%]" />
+      <p className="text-lg text-gradient">
+       
+      </p>
     </div>
   </section>
 );

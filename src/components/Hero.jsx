@@ -1,9 +1,10 @@
-import styles from "../style";
+import styles, { layout } from "../style";
 import { discount, germanclub } from "../assets";
 import GetStarted from "./GetStarted";
 import React from "react";
 import { Link } from "react-router-dom";
 import Button from "./Button";
+import Aboutus from "./Aboutus";
 
 const Hero = () => {
   return (
@@ -67,14 +68,27 @@ const Hero = () => {
         />
         {/* gradient end */}
         <div>
+       
+            <br />
+            <h2 className="sm:block text-center  text-white hidden sm:text-[30px] sm:px-6">
+              Welcome to the German-speaking Club, organized by ESN Oulu and
+              enthusiastic German learners!
+              <br className="sm:block hidden text-gradient" />
+            </h2>
+  
           <img
             src={germanclub}
             alt="German_CLUB"
-            className="w-[600px] h-[600px]"
+            className="w-[800px] h-[400px]"
           />
         </div>
+      
+      </div>
+      <div>
+        
       </div>
     </section>
+    
   );
 };
 

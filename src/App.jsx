@@ -25,8 +25,8 @@ const App = () => (
     <div className={`bg-primary ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
         <Routes>
-          <Route path={`/`} element={<Navigate to="/home" replace  />} />
-          <Route path={`/home`} element={<Hero/>} />
+          <Route path={`/`} element={<Navigate to="/home" replace />} />
+          <Route path={`/home`} element={<Hero />} />
           <Route path="/events" element={<Events />} />
           <Route path="/business" element={<Business />} />
           <Route path="/aboutus" element={<Aboutus />} />
@@ -40,7 +40,7 @@ const App = () => (
     <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <Stats />
-        <Aboutus /> <Testimonials />
+        <Aboutus />
         <Contact />
         <CTA />
         <Footer />
