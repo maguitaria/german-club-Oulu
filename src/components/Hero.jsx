@@ -22,20 +22,20 @@ const Hero = () => {
               <span className="text-white">
                 <strong>DEUTSCHER SPRACHKLUB "Sprich mit uns" </strong>
               </span>
-              <div className="rw">
-                {" "}
+              <span className="rw">
+                <br />
                 First meeting on November 14th, Tuesday!
-              </div>
+              </span>
             </a>
           </p>
         </div>
 
         <div className="flex flex-row justify-between items-center w-full">
           <h1
-            className="flex-1 font-poppins font-semibold xs:text-[40px] 
+            className="flex-1 font-poppins font-semibold xs:text-[40px] xs:pl-4 
           sm:text-[40px] text-white "
           >
-            Join our <br className="sm:block hidden sm:text-[40px]" />
+            Join our <br className="sm:block hidden sm:text-[40px] sm:px-6" />
             <div className="text-gradient xs:text-[80px] sm:text-[42px]">
               German Speaking club
             </div>

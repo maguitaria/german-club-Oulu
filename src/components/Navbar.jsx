@@ -7,7 +7,7 @@ import React from "react";
 const Navbar = () => {
   const [active, setActive] = useState("Home");
   const [toggle, setToggle] = useState(false);
-
+ 
   // Add an event listener to hide the Navbar when clicking outside
   useEffect(() => {
     if (toggle) {
@@ -31,7 +31,9 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex  justify-between items-center navbar ">
-      <img src={logo} alt="sprichmituns" className="w-[250px] h-[250px]" />
+      <Link to={`/home`}>
+        <img src={logo} alt="sprichmituns" className="w-[170px] h-[200px]" />
+      </Link>
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         <li className="font-poppins font-normal cursor-pointer text-[18px] text-white mr-11">
           <a href="https://forms.gle/4zLGYZngKZsHU64k7" target="_blank">
