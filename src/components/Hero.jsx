@@ -3,6 +3,7 @@ import { discount, germanclub } from "../assets";
 import GetStarted from "./GetStarted";
 import React from "react";
 import { Link } from "react-router-dom";
+import Button from "./Button";
 
 const Hero = () => {
   return (
@@ -45,6 +46,14 @@ const Hero = () => {
           <div className="flex  md:mr-3 mr-1">
             <a href="https://forms.gle/4zLGYZngKZsHU64k7" target="_blank">
               <GetStarted />
+            </a>
+          </div>
+        </div>
+        <br />
+        <div className="flex flex-row  justify-center items-center space-x-0.5 space-y-4 bg-discount-gradient rounded-[10px] mb-4">
+          <div className="flex items-center justify-center w-full">
+            <a href="https://t.me/+z_p7lHuhjnxlNWUy" target="_blank">
+              <Button styles={"mt-4"} />
             </a>
           </div>
         </div>

@@ -1,12 +1,21 @@
 import React from "react";
 import { contacts } from "../constants";
-import styles from "../style";
+import styles, { layout } from "../style";
 import { Link } from "react-router-dom"; // Import Link from react-router-dom
+import { esn, oulu_uni } from "../assets";
 
 const Contact = () => (
+  
   <section className={`${styles.flexCenter} my-4`}>
+    <div className={layout.sectionInfo}>
+      <h2 className={styles.heading2}>
+     Contact Us
+       
+      </h2>
+ 
+    </div>
     <Link to="/contactus">
-      <div className={`${styles.flexCenter} flex-wrap w-full`}>
+      
         {contacts.map((contact) => (
           <div
             key={contact.id}
@@ -14,13 +23,16 @@ const Contact = () => (
           >
             <img
               src={contact.logo}
-              alt="contact_logo"
+              alt={contact.id}
               className="sm:w-[200px] w-[200px] object-contain"
             />
           </div>
         ))}
-      </div>
+   
     </Link>
+
+
+    
   </section>
 );
 

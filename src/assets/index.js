@@ -7,6 +7,7 @@ import dropbox from "./dropbox.png";
 import logo from "./logos/logo-color.svg"
 import quotes from "./quotes.svg";
 import germanclub from "./Conclusion-freesvgillustration.com/Conclusion.svg";
+import aboutus from "./czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjkxNi1udW5ueS01MjAta3o3ajR3djgucG5n copy.png";
 import send from "./Send.svg";
 import shield from "./Shield.svg";
 import star from "./Star.svg";
@@ -24,7 +25,8 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
-
+import events from "./Green Minimalist About Us Instagram Story.png"
+import oulu_uni from "./oulu_uni.jpeg"
 export {
   airbnb,
   bill,
@@ -35,7 +37,9 @@ export {
   logo,
   quotes,
   germanclub,
+  aboutus,
   esn,
+  oulu_uni,
   send,
   shield,
   star,
@@ -48,6 +52,8 @@ export {
   facebook,
   instagram,
   linkedin,
+  events,
+
   twitter,
   people01,
   people02,

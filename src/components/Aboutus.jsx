@@ -1,5 +1,5 @@
 import React from "react";
-import { card } from "../assets";
+import { aboutus } from "../assets";
 import styles, { layout } from "../style";
 import Button from "./Button";
 
@@ -73,7 +73,7 @@ const Aboutus = () => (
     </div>
 
     <div className={layout.sectionImg}>
-      <img src={card} alt="Events" className="w-[100%] h-[100%]" />
+      <img src={aboutus} alt="About us" className="w-[100%] h-[50%]" />
     </div>
   </section>
 );
