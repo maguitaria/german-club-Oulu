@@ -1,5 +1,6 @@
 {
-  "name": "hoobank",
+  "name": "sprichmituns",
+  "homepage": "https://github.com/maguitaria/sprichmituns",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "gh-pages": "^6.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.18.0"
