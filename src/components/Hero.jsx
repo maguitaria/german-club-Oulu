@@ -26,7 +26,7 @@ const Hero = () => {
               </span>
               <span className="rw">
                 <br />
-                First meeting on November 14th, Tuesday!
+                First meeting on November 16th, Thursday!
               </span>
             </a>
           </p>
@@ -68,27 +68,22 @@ const Hero = () => {
         />
         {/* gradient end */}
         <div>
-       
-            <br />
-            <h2 className="sm:block text-center  text-white hidden sm:text-[30px] sm:px-6">
-              Welcome to the German-speaking Club, organized by ESN Oulu and
-              enthusiastic German learners!
-              <br className="sm:block hidden text-gradient" />
-            </h2>
-  
+          <br />
+          <h2 className="sm:block text-center  text-white hidden sm:text-[30px] sm:px-6">
+            Welcome to the German-speaking Club, organized by ESN Oulu and
+            enthusiastic German learners!
+            <br className="sm:block hidden text-gradient" />
+          </h2>
+
           <img
             src={germanclub}
             alt="German_CLUB"
             className="w-[800px] h-[400px]"
           />
         </div>
-      
       </div>
-      <div>
-        
-      </div>
+      <div></div>
     </section>
-    
   );
 };
 
