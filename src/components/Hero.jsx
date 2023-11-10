@@ -70,7 +70,7 @@ const Hero = () => {
         <div>
           <br />
           <h2 className="sm:block text-center  text-white hidden sm:text-[30px] sm:px-6">
-            Welcome to the German-speaking Club, organized by ESN Oulu and
+            Welcome to the German-speaking Club, organized by 
             enthusiastic German learners!
             <br className="sm:block hidden text-gradient" />
           </h2>

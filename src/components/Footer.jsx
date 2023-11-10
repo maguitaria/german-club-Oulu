@@ -1,5 +1,5 @@
 import styles from "../style";
-import { logo, esn } from "../assets";
+import { logo, esn, verba } from "../assets";
 import { footerLinks, socialMedia } from "../constants";
 import React from "react";
 
@@ -16,12 +16,18 @@ const Footer = () => (
         <ul className="list-none sm:flex hidden justify-end items-center flex-1">
           <li>
             <p className={`${styles.paragraph} mt-2 max-w-[312px]`}>
-              Partnered with ESN Oulu.
+              Partnered with ESN Oulu and Verba.
             </p>
             <img
               key="ESN"
               src={esn}
               alt="ESN"
+              className={`w-[150px] h-[150px] object-contain cursor-pointer mr-1`}
+            ></img>
+            <img
+              key="Verba"
+              src={verba}
+              alt="verba"
               className={`w-[150px] h-[150px] object-contain cursor-pointer mr-1`}
             ></img>
           </li>
@@ -57,7 +63,7 @@ const Footer = () => (
     <div className="w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3F3E45]">
       <p className="font-poppins font-normal text-center text-[18px] leading-[27px] text-white">
         developed by
-        <a href="https://github.com/maguitaria/maguitaria"> @maguitaria </a>
+        <a href="https://github.com/maguitaria/maguitaria" target="_blank"> Mariia Glushenkova </a>
       </p>
 
       <div className="flex flex-row md:mt-0 mt-6">

@@ -10,6 +10,7 @@ import {
   binance,
   coinbase,
   dropbox,
+  verba,
   send,
   shield,
   star,
@@ -208,5 +209,10 @@ export const contacts = [
     id: "esnoulu",
     logo: esn,
   },
+  {
+    id: "verba",
+    logo: verba,
+  },,
+
  
 ];

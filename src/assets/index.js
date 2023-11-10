@@ -27,6 +27,7 @@ import people02 from "./people02.png";
 import people03 from "./people03.png";
 import events from "./Green Minimalist About Us Instagram Story.png"
 import oulu_uni from "./oulu_uni.jpeg"
+import verba from "./F8BA3509-828E-487A-9B49-54A8C23A0BEC_4_5005_c.jpeg";
 export {
   airbnb,
   bill,
@@ -53,7 +54,7 @@ export {
   instagram,
   linkedin,
   events,
-
+verba,
   twitter,
   people01,
   people02,
